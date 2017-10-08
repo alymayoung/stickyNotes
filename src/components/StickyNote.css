@@ -1,0 +1,9 @@
+.stickyNote {
+  width: 250px;
+  height: 150px;
+  padding: 0.5em;
+  background-color: #EDDA74;
+  border: 1px solid #ADA96E;
+  position: absolute;
+  border-top-left-radius: 10px;
+  box-shadow: 10px 10px 5px #888888; }

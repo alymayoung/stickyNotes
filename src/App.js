@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 import ReactDom from 'react-dom'
+import StickyManager from './components/StickyManager'
+
 
 class App extends Component
 {
@@ -9,7 +11,8 @@ class App extends Component
         return(
 
             <div className="App">
-                App
+               <StickyManager />
+
             </div>
         );
     }
