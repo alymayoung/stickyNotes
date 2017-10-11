@@ -16,8 +16,10 @@ class StickyNote extends Component
         onStop={this.handleStop}
          >
         <div>
-          <div className="handle stickyNote">Drag from here</div>
-          <div>This readme is really dragging on...</div>
+          <div className="handle stickyNote">Drag from here
+          <textarea className="stickyText"> 
+          </textarea>
+          </div>
         </div>
       </Draggable>
        ); 
